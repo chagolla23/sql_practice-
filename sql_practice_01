@@ -1,7 +1,7 @@
 --1.Find how many payment transactions were greater
 --than $5.00
  
-select count(amount)
+select count(amount)                                         
 from payment 
 where amount > 5.00;
 -- 3,618
